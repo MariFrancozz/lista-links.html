@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>HTML - Listas e Links</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>LISTAS</h1>
+
+        <h2 id="lista-nao-ordenada">Lista Não Ordenada</h2>
+        <ul>
+            <li>Brasil</li>
+                <ul>
+                    <li>São Paulo</li>
+                        <ol>
+                            <li>São Carlos</li> <!---Sublistas composta por tipos de listas diferentes--->
+                            <li>Campinas</li>
+                        </ol>
+                    <li>Rio de Janeiro</li>
+                </ul>
+            <li>Argentina</li>  <!---Posso usar essa lista para criar um menu de navegação--->
+            <li>Uruguai</li>
+            <li>Paraguai</li>
+        </ul>
+
+        <h2>Lista Ordenada</h2>
+        <ol>
+            <li>Palmeira</li>
+            <li>Corinthians</li> <!---São ordenados através de numerações--->
+            <li>Santos</li>
+            <li>São Paulo</li>
+        </ol>
+
+        <h2>Lista de Definação</h2>
+        <dl>
+            <dt>TV</dt>
+            <dd>polegadas, smart, …</dd>
+            <dd>127 volts</dd>
+            <dt>PC</dt>
+            <dd>USB, 19 polegadas, Core i5</dd>
+        </dl>  
+        
+        <h1>LINKS</h1>
+        <nav>
+            <ul>
+                <h2>Link externo</h2>
+                <li>
+                    <a href="https://ebaconline.com.br">EBAC</a>
+                </li>
+
+                <h2>Link interno</h2>
+                <li>
+                    <a href="#top">Voltar ao topo</a>
+                </li>
+                <h2>Referenciando objetos da página</h2>
+                <li>
+                    <a href="#lista-nao-ordenada">lista não ordenada</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </body>
+
+</html>
